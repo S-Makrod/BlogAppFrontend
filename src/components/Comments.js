@@ -23,7 +23,7 @@ const Comments = ({blog}) => {
     return (
         <Table striped borderless hover>
             <tbody>
-                {blog.comments.map (comment => {
+                {blog.comments.map(comment => {
                     const time = moment(new Date(comment.pubdate)).fromNow()
                     return (<tr key={comment.id}>
                         <td className="col-md-5">
