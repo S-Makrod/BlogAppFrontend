@@ -30,7 +30,7 @@ const Blog = () => {
             </Row>
             <p>Poster: {blog.user.name} | Author: {blog.author} </p>
             <p>Likes: {blog.likes} </p>
-            <p>To view the blog please visit: <a href={blog.url}>{blog.url}</a></p>
+            <p>To view the blog please visit: <a target='_blank' href={blog.url} rel="noreferrer">{blog.url}</a></p>
             
             <Row className='mb-3'>
                 <h3>Comments</h3>
