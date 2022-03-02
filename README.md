@@ -1,3 +1,6 @@
 ## Blog App Frontend
 
-This is the frontend of my blog app seen at https://github.com/S-Makrod/BlogApp. More info can be found at the README of the BlogApp repo.
+There are tow versions of this app. Both apps implement this frontend but the backend are different. 
+
+The PERN app can be found here: https://github.com/S-Makrod/BlogAppV2
+The MERN app can be found here: https://github.com/S-Makrod/BlogApp
